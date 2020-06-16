@@ -1,0 +1,12 @@
+[submodule "rofi_dotfiles"]
+	path = dotfiles/config/rofi
+	url = https://github.com/coolsidd/dotfiles_rofi
+[submodule "i3_dotfiles"]
+	path = dotfiles/config/i3
+	url = https://github.com/coolsidd/i3-config
+[submodule "polybar_dotfiles"]
+	path = dotfiles/config/polybar
+	url = https://github.com/coolsidd/polybar_config
+[submodule "emacs_dotfiles"]
+	path = dotfiles/doom.d
+	url = https://github.com/coolsidd/emacs_config
