@@ -1,0 +1,13 @@
+autojump-git
+i3-workspace-names
+lightdm-settings
+lightdm-slick-greeter
+numix-circle-icon-theme-git
+numix-icon-theme-git
+otf-font-awesome-4
+polybar
+termsyn-font
+ttf-font-awesome-4
+ttf-material-design-icons
+vivaldi
+vivaldi-ffmpeg-codecs
