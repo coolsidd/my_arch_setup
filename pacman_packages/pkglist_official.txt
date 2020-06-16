@@ -1,3 +1,4 @@
+accountsservice
 autoconf
 automake
 base
@@ -23,7 +24,6 @@ gvfs
 i3-gaps
 light-locker
 lightdm
-lightdm-pantheon-greeter
 linux
 linux-firmware
 llpp
@@ -49,6 +49,7 @@ pkgconf
 pkgfile
 powerline
 powerline-fonts
+pulseaudio-alsa
 python-pip
 ristretto
 rofi

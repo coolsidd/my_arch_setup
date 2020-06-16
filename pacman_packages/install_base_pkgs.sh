@@ -3,7 +3,7 @@ set -euo pipefail
 
 ROOT_UID=0     # Only users with $UID 0 have root privileges.
 E_NOTROOT=87   # Non-root exit error.
-
+BASE_PKG_LIST='./pkglist_official.txt'
 # Run as root
 if [ "$UID" -ne "$ROOT_UID" ]
 then
@@ -13,8 +13,28 @@ fi
 
 echo "Installing files..."
 
-pacman --noconfirm -Sq $(cat ./pkglist_official.txt)
+pacman --noconfirm -Sq $(cat $BASE_PKG_LIST)
 
+echo "Open visudo? (Y/n)"
+read open_now
+while true;
+do
+case $open_now in
+  "y" | "Y")
+      visudo
+      break
+;;
+  "n"|"N")
+      break
+;;
+  *)
+      echo "Enter 'y' or 'n'"
+      echo "Open visudo? (Y/n)"
+      read open_now
+;;    
+esac
+done  
+                 
 echo "Enabling common services..."
 
 systemctl enable NetworkManager.service

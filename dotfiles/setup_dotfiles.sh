@@ -11,7 +11,7 @@ then
   exit $E_NOTROOT
 fi 
 
-HOME_DIR=$HOME"/test"
+HOME_DIR=$HOME
 CONF_DIR=$HOME_DIR"/.config"
 EMACS_DIR=$HOME_DIR"/.doom.d"
 
