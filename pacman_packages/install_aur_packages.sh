@@ -4,7 +4,7 @@ set -euo pipefail
 ROOT_UID=0     # Only users with $UID 0 have root privileges.
 E_ROOT=87   # Root exit error.
 PKG_LIST_LOC=$PWD'/foreignpkglist.txt'
-HOME_LOC=$HOME'/test'
+HOME_LOC=$HOME
 
 AUR_LOC=$HOME_LOC'/AUR'
 # Run as root

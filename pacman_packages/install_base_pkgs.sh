@@ -44,7 +44,7 @@ systemctl enable pkgfile-update.timer
 echo "Updating databases..."
 updatedb
 pkgfile -u
-pacman -F
+pacman -Fy
 fc-cache -fv
 echo "Done!"
 
