@@ -12,6 +12,7 @@ emacs
 exo
 fakeroot
 feh
+file-roller
 flex
 fzf
 garcon
@@ -69,6 +70,7 @@ tumbler
 vi
 which
 wpa_supplicant
+xarchiver
 xclip
 xfburn
 xfce4-appfinder
@@ -113,3 +115,5 @@ xfdesktop
 xfwm4
 xfwm4-themes
 xorg-server-xephyr
+zip
+unzip
