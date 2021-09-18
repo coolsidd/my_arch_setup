@@ -2,10 +2,12 @@ accountsservice
 autoconf
 automake
 base
+base-devel
 bash-completion
 binutils
 bison
 clutter-gtk
+cmake
 dhcpcd
 efibootmgr
 emacs
@@ -68,6 +70,7 @@ ttf-font-awesome
 ttf-inconsolata
 tumbler
 vi
+vim
 which
 wpa_supplicant
 xarchiver
